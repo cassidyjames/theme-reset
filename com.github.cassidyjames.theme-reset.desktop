@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Reset Themes
+Icon=edit-undo
+Exec=bash -c 'gsettings reset org.gnome.desktop.interface gtk-theme; gsettings reset org.gnome.desktop.wm.preferences theme; gsettings reset org.gnome.desktop.interface icon-theme; notify-send "All done!" "Reset to default themes" -i edit-undo'
