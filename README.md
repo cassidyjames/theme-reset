@@ -8,3 +8,7 @@ Possibly an abuse of the `.desktop` spec. :wink:
 3. Click the **Reset Themes** icon.
 
 Your system GTK+ and Icon themes should reset to the OS defaults.
+
+# NOTE: No longer works on elementary OS Loki
+
+Since executing arbitrary scripts from a `.desktop` file could be considered a pretty large security risk, elemnetary OS no longer allows it in the default file manager. So that stops this from working (but it's a decision I agree with!). It was fun while it lasted.
